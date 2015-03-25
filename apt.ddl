@@ -34,7 +34,7 @@ end
       :prompt		 => 'Package Name',
 	  :description   => "The package to #{act}",
 	  :type          => :string,
-	  :validation	 => '^[a-zA-Z\-_\d]+$',
+	  :validation	 => '^[a-zA-Z\-_\d\.]+$',
 	  :maxlength     => 100,
 	  :optional      => false
 	
